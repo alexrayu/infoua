@@ -1,0 +1,12 @@
+custom:
+  text_current: '{current} з {total}'
+  text_previous: '« Попередня'
+  text_next: 'Наступна »'
+  text_close: Закрити
+  maxwidth: 98%
+  maxheight: 98%
+  initialwidth: '300'
+  initialheight: '250'
+  slideshow:
+    text_start: 'почати слайд-шоу'
+    text_stop: 'зупинити слайд-шоу'

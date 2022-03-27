@@ -1,0 +1,14 @@
+third_party_settings:
+  field_group:
+    group_tabs:
+      label: Вкладки
+    group_basic:
+      label: Основное
+    group_i:
+      label: Элементы
+    group_set:
+      label: Настройки
+content:
+  field_d_counter_reference:
+    settings:
+      title: Счётчик

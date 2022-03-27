@@ -1,0 +1,14 @@
+third_party_settings:
+  field_group:
+    group_tabs:
+      label: Вкладки
+    group_basic:
+      label: Основні
+    group_i:
+      label: Елементи
+    group_set:
+      label: Налаштування
+content:
+  field_d_counter_reference:
+    settings:
+      title: Лічильник

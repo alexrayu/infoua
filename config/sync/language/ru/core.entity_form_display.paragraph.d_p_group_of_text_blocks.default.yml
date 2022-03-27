@@ -1,0 +1,15 @@
+third_party_settings:
+  field_group:
+    group_tabs:
+      label: Вкладки
+    group_settings:
+      label: Настройки
+    group_basic:
+      label: Основное
+    group_items:
+      label: Элементы
+content:
+  field_d_p_tb_block_reference:
+    settings:
+      title: Параграф
+      title_plural: Параграфы

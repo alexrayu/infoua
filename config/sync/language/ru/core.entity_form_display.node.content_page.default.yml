@@ -1,0 +1,13 @@
+third_party_settings:
+  field_group:
+    group_tabs:
+      label: Вкладки
+    group_basic:
+      label: Основное
+    group_seo:
+      label: 'Поисковая оптимизация'
+content:
+  field_page_section:
+    settings:
+      title: Параграф
+      title_plural: Параграфы

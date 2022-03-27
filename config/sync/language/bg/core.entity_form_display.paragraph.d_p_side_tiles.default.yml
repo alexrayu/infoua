@@ -1,0 +1,6 @@
+third_party_settings:
+  field_group:
+    group_items:
+      label: Новини
+    group_settings:
+      label: Настройки

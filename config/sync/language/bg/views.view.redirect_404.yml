@@ -1,0 +1,25 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Филтър
+          reset_button_label: Рестартирай
+      fields:
+        path:
+          label: Път
+        count:
+          label: Брой
+        langcode:
+          label: Език
+        redirect_404_operations:
+          label: Действия
+      filters:
+        path:
+          expose:
+            label: Път
+        langcode:
+          expose:
+            label: Език
+  page_1:
+    display_title: Страница

@@ -1,0 +1,15 @@
+third_party_settings:
+  field_group:
+    group_tabs:
+      label: Вкладки
+    group_settings:
+      label: Налаштування
+    group_items:
+      label: Елементи
+    group_basic:
+      label: Основні
+content:
+  field_d_p_cs_item_reference:
+    settings:
+      title: Абзац
+      title_plural: Абзаци

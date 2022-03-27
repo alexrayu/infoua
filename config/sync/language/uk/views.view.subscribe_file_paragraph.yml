@@ -1,0 +1,42 @@
+display:
+  default:
+    display_title: Головне
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Застосувати
+          reset_button_label: Скинути
+          exposed_sorts_label: 'Впорядкувати за'
+          sort_asc_label: Зрост
+          sort_desc_label: Спад
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Елементів на сторінку'
+            items_per_page_options_all_label: '- Усе -'
+            offset_label: Зміщення
+          tags:
+            previous: ‹‹
+            next: ››
+      fields:
+        id:
+          label: ID
+          separator: ', '
+        name:
+          label: 'Назва (ім''я)'
+          separator: ', '
+        mail:
+          label: Пошта
+          separator: ', '
+        created:
+          label: Створено
+          separator: ', '
+      filters:
+        mail:
+          expose:
+            label: Пошта
+        name:
+          expose:
+            label: 'Назва (ім''я)'
+  page_1:
+    display_title: Сторінка

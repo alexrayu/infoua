@@ -1,0 +1,10 @@
+third_party_settings:
+  field_group:
+    group_tabs:
+      label: Вкладки
+    group_basic:
+      label: Основні
+    group_items:
+      label: Елементи
+    group_settings:
+      label: Налаштування

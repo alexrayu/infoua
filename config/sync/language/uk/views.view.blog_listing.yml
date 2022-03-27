@@ -1,0 +1,40 @@
+display:
+  default:
+    display_title: Головне
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Застосувати
+          reset_button_label: Скинути
+          exposed_sorts_label: 'Впорядкувати за'
+          sort_asc_label: Зрост
+          sort_desc_label: Спад
+      pager:
+        options:
+          tags:
+            first: «
+            last: »
+          expose:
+            items_per_page_label: 'Елементів на сторінку'
+            items_per_page_options_all_label: '- Усе -'
+            offset_label: Зміщення
+      fields:
+        title:
+          separator: ', '
+      title: Блоґ
+      arguments:
+        tid:
+          exception:
+            title: Все
+  page_1:
+    display_title: Сторінка
+    display_options:
+      title: Блоґ
+      arguments:
+        tid:
+          exception:
+            title: Все
+          title: '{{ arguments.tid }}'
+  premium_blog_posts:
+    display_options:
+      title: Блоґ
