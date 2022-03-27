@@ -1,0 +1,23 @@
+uuid: f4471c24-6614-4c12-b056-b4e40fb56481
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.content_block
+    - field.storage.block_content.field_d_long_text
+  module:
+    - text
+_core:
+  default_config_hash: xoo9PMFj1EIH_3sOBO-i0Ogy_ljl9L3pL80BpGQ6Ac8
+id: block_content.content_block.field_d_long_text
+field_name: field_d_long_text
+entity_type: block_content
+bundle: content_block
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,10 @@
+uuid: 60809cc4-89af-42c1-9016-49f47c35e1e5
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: hXfaesS_m1Kd6I9AmrSEpoELdnJSRsNe8yDxSGRP64c
+id: d_paragraph_block
+label: 'Paragraph block'
+revision: 0
+description: 'Block type with ability to add paragraphs as content.'

@@ -1,0 +1,21 @@
+uuid: 9838fd1c-0697-4b45-b32a-4b79cc7ddccc
+langcode: en
+status: true
+dependencies:
+  module:
+    - d_block_field
+    - paragraphs
+_core:
+  default_config_hash: fTocYgo36Y7hoNOm8XZEjaNp-CPM2yJ2tN0dq9adS04
+id: paragraph.field_block
+field_name: field_block
+entity_type: paragraph
+type: d_block_field
+settings: {  }
+module: d_block_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,18 @@
+uuid: 4cfe2a88-f48a-4ae6-8456-1b929b7b12ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.blog_posts_category
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+_core:
+  default_config_hash: iWQX1wEHDOPVR7iAAyAy_oqX1e5LHGk5yfZDv3mE9pI
+id: taxonomy_term.blog_posts_category
+target_entity_type_id: taxonomy_term
+target_bundle: blog_posts_category
+default_langcode: site_default
+language_alterable: false

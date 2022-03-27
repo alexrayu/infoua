@@ -1,0 +1,25 @@
+uuid: cd034b23-8b45-4f2c-8b04-259e344cf50a
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - paragraphs
+_core:
+  default_config_hash: UdP5Dp8F5Ep_f5YXu91fcKqsnPxqoThjzy3GoGMj-b8
+id: paragraph.field_file_download
+field_name: field_file_download
+entity_type: paragraph
+type: file
+settings:
+  display_field: false
+  display_default: false
+  uri_scheme: private
+  target_type: file
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

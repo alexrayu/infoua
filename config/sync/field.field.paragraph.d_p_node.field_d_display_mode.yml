@@ -1,0 +1,27 @@
+uuid: a4835edc-74f2-43fb-94e9-2c1b3001c90f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_d_display_mode
+    - paragraphs.paragraphs_type.d_p_node
+  module:
+    - entity_reference_display
+_core:
+  default_config_hash: mdHPwWM6EGQ_Dx7QEwlpoamYfdJ3BRwbgFdCEf9NGqM
+id: paragraph.d_p_node.field_d_display_mode
+field_name: field_d_display_mode
+entity_type: paragraph
+bundle: d_p_node
+label: 'Display mode'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  exclude:
+    d_small_box: d_small_box
+    teaser: teaser
+  negate: 1
+field_type: entity_reference_display

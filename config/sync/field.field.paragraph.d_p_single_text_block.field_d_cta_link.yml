@@ -1,0 +1,25 @@
+uuid: 5d0f4ebd-58ff-44ad-993c-96c4fe2b8c5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_d_cta_link
+    - paragraphs.paragraphs_type.d_p_single_text_block
+  module:
+    - link
+_core:
+  default_config_hash: T8zwH-_lsVYfr_bgpHOfANy1IFheBlVKkmOq5f_1l78
+id: paragraph.d_p_single_text_block.field_d_cta_link
+field_name: field_d_cta_link
+entity_type: paragraph
+bundle: d_p_single_text_block
+label: 'Call To Action'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

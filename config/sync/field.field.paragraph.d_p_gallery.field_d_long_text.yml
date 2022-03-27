@@ -1,0 +1,23 @@
+uuid: d90a8b34-bab9-442a-9162-c9bb8e203a51
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_d_long_text
+    - paragraphs.paragraphs_type.d_p_gallery
+  module:
+    - text
+_core:
+  default_config_hash: vnXZZRPQ72P7Dd-D0P_1JzC3puJ-7uwICQ8Hq1K6KmA
+id: paragraph.d_p_gallery.field_d_long_text
+field_name: field_d_long_text
+entity_type: paragraph
+bundle: d_p_gallery
+label: 'Gallery description'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,23 @@
+uuid: adf90613-dece-4bb9-9941-bdc2cbff892d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_d_long_text
+    - paragraphs.paragraphs_type.d_p_carousel_item
+  module:
+    - text
+_core:
+  default_config_hash: cZokb7uxBcaEB7PYkTwdfr9ieqnpA0p6F6TpkyTz85A
+id: paragraph.d_p_carousel_item.field_d_long_text
+field_name: field_d_long_text
+entity_type: paragraph
+bundle: d_p_carousel_item
+label: 'Long text'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

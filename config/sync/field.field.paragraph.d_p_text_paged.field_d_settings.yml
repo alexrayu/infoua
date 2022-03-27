@@ -1,0 +1,25 @@
+uuid: 118a873d-84cb-42e5-b13a-dbe687816aab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_d_settings
+    - paragraphs.paragraphs_type.d_p_text_paged
+  module:
+    - d_p
+_core:
+  default_config_hash: Ghik_tND9JBjcL7LoUnl-arOFRlt9MlAISPQfT-QpMM
+id: paragraph.d_p_text_paged.field_d_settings
+field_name: field_d_settings
+entity_type: paragraph
+bundle: d_p_text_paged
+label: 'Paragraph settings'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: '{"custom_class":"","heading_type":"h2"}'
+default_value_callback: ''
+settings: {  }
+field_type: field_p_configuration_storage

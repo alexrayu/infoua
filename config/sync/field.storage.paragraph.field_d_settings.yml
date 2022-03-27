@@ -1,0 +1,21 @@
+uuid: 307950d0-9fde-4c99-8961-0cb7b3debafd
+langcode: en
+status: true
+dependencies:
+  module:
+    - d_p
+    - paragraphs
+_core:
+  default_config_hash: BfZL8-_o1jb8rPlvi4AY-4uG5jdXOPvubCN70mss9hQ
+id: paragraph.field_d_settings
+field_name: field_d_settings
+entity_type: paragraph
+type: field_p_configuration_storage
+settings: {  }
+module: d_p
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

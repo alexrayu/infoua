@@ -1,0 +1,21 @@
+uuid: 392cb02a-df93-407b-a504-52636cc5e76d
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - footer
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: jSOHA0ysOMdiMNk1aNFBNjKCE-Fxb_I6G-phYRPXBmw
+name: 'Blog post'
+type: blog_post
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: true

@@ -1,0 +1,29 @@
+uuid: a8f0c8f4-3287-4438-9b5b-44cb7aeee252
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_header_cta
+    - node.type.content_page
+  module:
+    - link
+_core:
+  default_config_hash: b3rfwLxolgi-ZKyM_Pzhirz9-M26DwE01PGvi4kdctY
+id: node.content_page.field_header_cta
+field_name: field_header_cta
+entity_type: node
+bundle: content_page
+label: CTA
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    options:
+      attributes:
+        class: 'btn btn-primary'
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

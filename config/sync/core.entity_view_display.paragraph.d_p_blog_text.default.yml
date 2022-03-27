@@ -1,0 +1,24 @@
+uuid: 11ec368f-f42c-4946-bfb9-732d724d0f65
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.d_p_blog_text.field_d_long_text
+    - paragraphs.paragraphs_type.d_p_blog_text
+  module:
+    - text
+_core:
+  default_config_hash: dclLgXv4QeZ3va3WHdftoZRRpjYJygETh9eph2Nxq0o
+id: paragraph.d_p_blog_text.default
+targetEntityType: paragraph
+bundle: d_p_blog_text
+mode: default
+content:
+  field_d_long_text:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

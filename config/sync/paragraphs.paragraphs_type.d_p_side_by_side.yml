@@ -1,0 +1,12 @@
+uuid: ba8777c7-7170-4a72-a478-6346881083d0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: brcU0mWAGB3EJS-tyVcCOMTPsVX4RLakKl-KeQ2rHO4
+id: d_p_side_by_side
+label: 'Side by side'
+icon_uuid: null
+icon_default: null
+description: 'Two columns, text block or node in each one.'
+behavior_plugins: {  }

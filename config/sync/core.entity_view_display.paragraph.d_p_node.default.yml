@@ -1,0 +1,39 @@
+uuid: 04776a24-d88b-4558-b269-04bcf8bf3ef2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.d_p_node.field_d_display_mode
+    - field.field.paragraph.d_p_node.field_d_node_reference
+    - field.field.paragraph.d_p_node.field_d_settings
+    - paragraphs.paragraphs_type.d_p_node
+  module:
+    - entity_reference_display
+_core:
+  default_config_hash: X5TB568AoXQclEfu0cDttnJisTnz5K-6EYv2U2NsSJ0
+id: paragraph.d_p_node.default
+targetEntityType: paragraph
+bundle: d_p_node
+mode: default
+content:
+  field_d_node_reference:
+    weight: 0
+    label: hidden
+    settings:
+      display_field: ''
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_display_default
+    region: content
+  field_d_settings:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  field_d_display_mode: true
+  search_api_excerpt: true

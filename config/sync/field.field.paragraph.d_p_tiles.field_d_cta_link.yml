@@ -1,0 +1,29 @@
+uuid: 82f73f29-fce8-4a49-b891-24a28a54852a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_d_cta_link
+    - paragraphs.paragraphs_type.d_p_tiles
+  module:
+    - link
+_core:
+  default_config_hash: Wy7b_bQNJl8U94yWDCxF2dHrVQcWNBfsF4A58MjdfP4
+id: paragraph.d_p_tiles.field_d_cta_link
+field_name: field_d_cta_link
+entity_type: paragraph
+bundle: d_p_tiles
+label: 'Call To Action'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    options:
+      attributes:
+        class: 'btn btn-primary'
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

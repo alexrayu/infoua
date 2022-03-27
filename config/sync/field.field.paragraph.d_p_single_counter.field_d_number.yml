@@ -1,0 +1,25 @@
+uuid: d49601a7-f9e1-46f6-9b4f-8d3d49290b39
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_d_number
+    - paragraphs.paragraphs_type.d_p_single_counter
+_core:
+  default_config_hash: 9OJdjJuodbmyxAjcKYMnADexuh0khUPC2AEQWSBc2uU
+id: paragraph.d_p_single_counter.field_d_number
+field_name: field_d_number
+entity_type: paragraph
+bundle: d_p_single_counter
+label: Number
+description: 'Enter number to count to.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,23 @@
+uuid: 8846f5f0-c373-4b2e-9038-a84c2e1462bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_d_p_sf_additional_info
+    - paragraphs.paragraphs_type.d_p_subscribe_file
+  module:
+    - text
+_core:
+  default_config_hash: qHNFS8R86pf70Qn-VVGYJiaRN_AdSbbZ6hyfP4rSurk
+id: paragraph.d_p_subscribe_file.field_d_p_sf_additional_info
+field_name: field_d_p_sf_additional_info
+entity_type: paragraph
+bundle: d_p_subscribe_file
+label: 'Additional download info'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

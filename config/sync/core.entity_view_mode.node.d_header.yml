@@ -1,0 +1,12 @@
+uuid: 50b67695-6964-4793-9613-105036d3edb7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: Zy8W_v5hcVkm_IHGbJjooCTugwG8vdjqQFWatnWJHSQ
+id: node.d_header
+label: Header
+targetEntityType: node
+cache: true

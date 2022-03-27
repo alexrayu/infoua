@@ -1,0 +1,18 @@
+uuid: 5750fecd-9145-424d-9afe-30a9beb49108
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - search
+    - system
+_core:
+  default_config_hash: _fwB1fYnatJOXVdX0EVunrUmqJF86LXUUJ_R4DDN0fY
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'search content'
+  - 'view media'
