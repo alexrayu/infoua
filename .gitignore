@@ -25,3 +25,6 @@ drupal_config
 /.idea/
 .editorconfig
 .gitattributes
+
+# Private FS.
+private
