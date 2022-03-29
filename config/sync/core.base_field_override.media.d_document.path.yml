@@ -1,0 +1,20 @@
+uuid: 37effb88-6328-4d13-8768-de740d428901
+langcode: uk
+status: true
+dependencies:
+  config:
+    - media.type.d_document
+  module:
+    - path
+id: media.d_document.path
+field_name: path
+entity_type: media
+bundle: d_document
+label: URL-синонім
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

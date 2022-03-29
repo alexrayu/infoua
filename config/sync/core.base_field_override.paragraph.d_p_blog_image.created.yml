@@ -1,0 +1,18 @@
+uuid: 56c3a5df-6b12-4ede-80cd-1e55e036514d
+langcode: uk
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_blog_image
+id: paragraph.d_p_blog_image.created
+field_name: created
+entity_type: paragraph
+bundle: d_p_blog_image
+label: Створено
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

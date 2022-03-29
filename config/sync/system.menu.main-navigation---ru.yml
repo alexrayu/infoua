@@ -1,0 +1,8 @@
+uuid: b0b5f97d-b4d7-43fb-b5a9-ff52d7527874
+langcode: ru
+status: true
+dependencies: {  }
+id: main-navigation---ru
+label: 'Main navigation - RU'
+description: ''
+locked: false

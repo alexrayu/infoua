@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   content_translation:
     enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
 _core:
   default_config_hash: pUVu878VSi1KiMTY1Y4R3g3dOOiegi_4nOamBH9Mqtg
 id: node.content_page

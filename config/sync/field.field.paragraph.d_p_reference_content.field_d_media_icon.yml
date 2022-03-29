@@ -12,10 +12,10 @@ id: paragraph.d_p_reference_content.field_d_media_icon
 field_name: field_d_media_icon
 entity_type: paragraph
 bundle: d_p_reference_content
-label: Icon
+label: Іконка
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

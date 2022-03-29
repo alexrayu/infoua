@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   content_translation:
     enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
 _core:
   default_config_hash: wRst685y6ORikjCxE1kump2SLu03vHrTiSZvv41_2_o
 id: paragraph.d_p_banner

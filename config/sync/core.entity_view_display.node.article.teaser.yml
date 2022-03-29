@@ -1,0 +1,50 @@
+uuid: 1da1f9ed-4ea8-47c2-90e4-e2aa6b929ab0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.article.field_article_image
+    - field.field.node.article.field_body
+    - field.field.node.article.field_category
+    - image.style.article_thumbnail
+    - node.type.article
+  module:
+    - lazy
+    - svg_image
+    - text
+    - user
+id: node.article.teaser
+targetEntityType: node
+bundle: article
+mode: teaser
+content:
+  field_article_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: article_thumbnail
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+    third_party_settings:
+      lazy:
+        lazy_image: '1'
+        placeholder_style: article_thumbnail
+        data_uri: false
+    weight: 0
+    region: content
+  field_body:
+    type: text_trimmed
+    label: hidden
+    settings:
+      trim_length: 250
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_category: true
+  langcode: true
+  links: true

@@ -6,27 +6,22 @@ dependencies:
     - field.storage.media.field_media_image
     - media.type.d_image
   module:
-    - content_translation
     - image
-third_party_settings:
-  content_translation:
-    translation_sync:
-      alt: alt
-      title: title
-      file: '0'
 _core:
   default_config_hash: 9-3XGwOJS-89p7YmeIXzkq_BG-6W992QEtljkkqAWDw
 id: media.d_image.field_media_image
 field_name: field_media_image
 entity_type: media
 bundle: d_image
-label: Image
+label: Зображення
 description: ''
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
+  handler: 'default:file'
+  handler_settings: {  }
   file_directory: media/image
   file_extensions: 'png gif jpg jpeg svg'
   max_filesize: ''
@@ -42,6 +37,4 @@ settings:
     title: ''
     width: null
     height: null
-  handler: 'default:file'
-  handler_settings: {  }
 field_type: image

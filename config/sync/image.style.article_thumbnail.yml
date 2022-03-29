@@ -1,0 +1,15 @@
+uuid: 52aafeeb-ce6a-4d09-895e-25c60bdddaaa
+langcode: uk
+status: true
+dependencies: {  }
+name: article_thumbnail
+label: 'Article thumbnail'
+effects:
+  4cfcc05a-0a6f-4a8d-a22c-c5994c13b73a:
+    uuid: 4cfcc05a-0a6f-4a8d-a22c-c5994c13b73a
+    id: image_scale
+    weight: 1
+    data:
+      width: 180
+      height: 180
+      upscale: false

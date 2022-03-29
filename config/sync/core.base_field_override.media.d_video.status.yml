@@ -1,0 +1,22 @@
+uuid: 89244b77-9479-43af-9828-dc801149e4fb
+langcode: uk
+status: true
+dependencies:
+  config:
+    - media.type.d_video
+id: media.d_video.status
+field_name: status
+entity_type: media
+bundle: d_video
+label: Опубліковано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Увімкнено
+  off_label: Вимкнено
+field_type: boolean

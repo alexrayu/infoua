@@ -1,0 +1,18 @@
+uuid: 8df059b1-84c0-44ed-9d74-517e57cc74cb
+langcode: uk
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_reference_content
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.d_p_reference_content
+target_entity_type_id: paragraph
+target_bundle: d_p_reference_content
+default_langcode: site_default
+language_alterable: false

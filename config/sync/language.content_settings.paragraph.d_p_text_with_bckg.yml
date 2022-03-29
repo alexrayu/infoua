@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   content_translation:
     enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
 _core:
   default_config_hash: wuw4VXd8EekBqjEVX1GaXGdhP0dMlya6hXiWqe3zqfI
 id: paragraph.d_p_text_with_bckg

@@ -1,0 +1,18 @@
+uuid: 78dad5c3-76ff-4dae-9dd7-b684b3514b7b
+langcode: uk
+status: true
+dependencies:
+  module:
+    - user
+id: user.user.changed
+field_name: changed
+entity_type: user
+bundle: user
+label: Змінено
+description: 'Час коли користувача востаннє редагували.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

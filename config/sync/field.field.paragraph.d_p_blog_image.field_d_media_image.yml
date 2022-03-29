@@ -13,10 +13,10 @@ id: paragraph.d_p_blog_image.field_d_media_image
 field_name: field_d_media_image
 entity_type: paragraph
 bundle: d_p_blog_image
-label: Image
+label: Зображення
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

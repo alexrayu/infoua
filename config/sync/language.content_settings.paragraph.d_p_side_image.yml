@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   content_translation:
     enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
 _core:
   default_config_hash: Gl_mh91lFHbVCR6mEhhZ6vEOalBoc4lDw9q9BTk86uY
 id: paragraph.d_p_side_image

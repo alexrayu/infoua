@@ -14,7 +14,7 @@ bundle: d_p_single_counter
 label: 'Counter text'
 description: 'This will be shown below number.'
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

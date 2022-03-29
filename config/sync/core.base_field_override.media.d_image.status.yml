@@ -1,0 +1,22 @@
+uuid: 9c42c87a-0c53-4822-9c32-64240b484aff
+langcode: uk
+status: true
+dependencies:
+  config:
+    - media.type.d_image
+id: media.d_image.status
+field_name: status
+entity_type: media
+bundle: d_image
+label: Опубліковано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Увімкнено
+  off_label: Вимкнено
+field_type: boolean

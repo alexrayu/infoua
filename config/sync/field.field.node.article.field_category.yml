@@ -1,0 +1,29 @@
+uuid: acfa5cb5-17fa-41ac-98d7-1ee293075ff4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_category
+    - node.type.article
+    - taxonomy.vocabulary.page_category
+id: node.article.field_category
+field_name: field_category
+entity_type: node
+bundle: article
+label: Category
+description: 'The tag associated with a category (housing; status info; others...)'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      page_category: page_category
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

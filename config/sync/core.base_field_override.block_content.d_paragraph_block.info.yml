@@ -1,0 +1,18 @@
+uuid: 111abe20-dcf1-4595-800c-b88bc5f59a53
+langcode: uk
+status: true
+dependencies:
+  config:
+    - block_content.type.d_paragraph_block
+id: block_content.d_paragraph_block.info
+field_name: info
+entity_type: block_content
+bundle: d_paragraph_block
+label: 'Опис блоку'
+description: 'Короткий опис вашого блоку.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

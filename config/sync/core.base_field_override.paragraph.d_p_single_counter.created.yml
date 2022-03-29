@@ -1,0 +1,18 @@
+uuid: c294221d-3a10-4418-a58b-53890be3206e
+langcode: uk
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_single_counter
+id: paragraph.d_p_single_counter.created
+field_name: created
+entity_type: paragraph
+bundle: d_p_single_counter
+label: Створено
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

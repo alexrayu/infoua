@@ -16,7 +16,7 @@ bundle: d_p_block
 label: 'Paragraph settings'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value:
   -
     value: '{"custom_class":""}'

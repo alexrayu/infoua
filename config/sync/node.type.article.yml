@@ -1,0 +1,18 @@
+uuid: c9c97c6e-23d6-4e6f-b2ce-d5338dc8006e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Article
+type: article
+description: 'An article describing news.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

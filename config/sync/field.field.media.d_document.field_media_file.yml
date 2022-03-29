@@ -13,17 +13,17 @@ id: media.d_document.field_media_file
 field_name: field_media_file
 entity_type: media
 bundle: d_document
-label: File
+label: Файл
 description: ''
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
+  handler: 'default:file'
+  handler_settings: {  }
   file_directory: 'documents/[date:custom:Y]-[date:custom:m]'
   file_extensions: 'txt doc docx pdf'
   max_filesize: ''
   description_field: false
-  handler: 'default:file'
-  handler_settings: {  }
 field_type: file

@@ -1,0 +1,18 @@
+uuid: 16711feb-26eb-48f9-80ed-63be4739f969
+langcode: uk
+status: true
+dependencies:
+  config:
+    - media.type.d_video
+id: media.d_video.changed
+field_name: changed
+entity_type: media
+bundle: d_video
+label: Змінено
+description: 'Час останнього редагування медіа-об''єкта.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

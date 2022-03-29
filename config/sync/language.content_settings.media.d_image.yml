@@ -4,6 +4,13 @@ status: true
 dependencies:
   config:
     - media.type.d_image
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
 _core:
   default_config_hash: 5Yw8G4pM5Aas6f4pfh0eoYtwyLpEtSDn9g3xqZBRV1A
 id: media.d_image

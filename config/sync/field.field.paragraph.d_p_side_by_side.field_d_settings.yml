@@ -16,7 +16,7 @@ bundle: d_p_side_by_side
 label: 'Paragraph settings'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value:
   -
     value: '{"custom_class":""}'

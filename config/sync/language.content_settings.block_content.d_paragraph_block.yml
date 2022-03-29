@@ -4,6 +4,13 @@ status: true
 dependencies:
   config:
     - block_content.type.d_paragraph_block
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
 _core:
   default_config_hash: EcakqDx5ecirEapEpdwhmUk0pqOqyKPka_lyc6Ls14s
 id: block_content.d_paragraph_block

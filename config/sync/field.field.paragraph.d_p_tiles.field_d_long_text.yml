@@ -16,7 +16,7 @@ bundle: d_p_tiles
 label: 'Tiles gallery description'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

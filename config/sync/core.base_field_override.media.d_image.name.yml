@@ -1,0 +1,20 @@
+uuid: 26e276de-9983-47fd-bb34-98df80807865
+langcode: uk
+status: true
+dependencies:
+  config:
+    - media.type.d_image
+id: media.d_image.name
+field_name: name
+entity_type: media
+bundle: d_image
+label: 'Назва (ім''я)'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

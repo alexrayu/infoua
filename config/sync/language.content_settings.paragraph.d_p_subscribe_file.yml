@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   content_translation:
     enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
 _core:
   default_config_hash: QaA2OBsv4KCpCWCzlGCSZ43mKzx8TGGRhP4TprkfwnY
 id: paragraph.d_p_subscribe_file

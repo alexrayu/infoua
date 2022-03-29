@@ -1,0 +1,22 @@
+uuid: 932a0731-607d-4ab4-8d74-49abc03d17fb
+langcode: uk
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_group_of_counters
+id: paragraph.d_p_group_of_counters.status
+field_name: status
+entity_type: paragraph
+bundle: d_p_group_of_counters
+label: Опубліковано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Увімкнено
+  off_label: Вимкнено
+field_type: boolean

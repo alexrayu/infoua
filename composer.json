@@ -28,6 +28,7 @@
         "drupal/console": "~1.0",
         "drupal/core-composer-scaffold": "^8.9 || ^9.0",
         "drupal/core-recommended": "^8.9 || ^9.0",
+        "drupal/flag": "^4.0@beta",
         "drupal/rabbit_hole": "^1.0@beta",
         "drush/drush": "^9.0 || ^10.0",
         "oomphinc/composer-installers-extender": "^2.0",
@@ -43,7 +44,15 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/installers": true,
+            "drupal/core-composer-scaffold": true,
+            "zaporylie/composer-drupal-optimizations": true,
+            "drupal/console-extend-plugin": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "oomphinc/composer-installers-extender": true
+        }
     },
     "extra": {
         "drupal-scaffold": {

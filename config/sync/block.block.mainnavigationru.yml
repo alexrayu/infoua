@@ -1,0 +1,28 @@
+uuid: 4bb30f55-f631-4a23-bc25-3d06499db20c
+langcode: ru
+status: true
+dependencies:
+  module:
+    - language
+    - we_megamenu
+  theme:
+    - droopler_theme
+id: mainnavigationru
+theme: droopler_theme
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'we_megamenu_block:main-navigation---ru'
+settings:
+  id: 'we_megamenu_block:main-navigation---ru'
+  label: 'Main navigation - RU'
+  label_display: '0'
+  provider: we_megamenu
+visibility:
+  language:
+    id: language
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
+    langcodes:
+      ru: ru

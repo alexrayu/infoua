@@ -1,0 +1,18 @@
+uuid: 016056c4-fd35-41a5-bb2c-aacf5830384e
+langcode: uk
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_side_by_side
+id: paragraph.d_p_side_by_side.created
+field_name: created
+entity_type: paragraph
+bundle: d_p_side_by_side
+label: Створено
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

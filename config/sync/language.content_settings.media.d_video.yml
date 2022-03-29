@@ -4,6 +4,13 @@ status: true
 dependencies:
   config:
     - media.type.d_video
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
 _core:
   default_config_hash: zlAp03Ywz6WY2yznuIRPPaAz2k6NQKYwF1ISNYz-OAk
 id: media.d_video
