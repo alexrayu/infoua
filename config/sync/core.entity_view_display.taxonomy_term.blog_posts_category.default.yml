@@ -1,5 +1,5 @@
 uuid: 4b6d3d6c-fe86-4478-8832-a25d342ccfe4
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -15,12 +15,12 @@ bundle: blog_posts_category
 mode: default
 content:
   description:
-    label: hidden
     type: text_default
-    weight: 0
-    region: content
+    label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   field_d_blog_category: true
   langcode: true

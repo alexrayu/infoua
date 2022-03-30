@@ -1,5 +1,5 @@
 uuid: 13d3cd26-c50e-4c14-af70-5eb04d26beb6
-langcode: en
+langcode: ru
 status: true
 dependencies:
   module:
@@ -12,8 +12,8 @@ entity_type: taxonomy_term
 type: string
 settings:
   max_length: 255
-  is_ascii: false
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

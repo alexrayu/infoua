@@ -1,5 +1,5 @@
 uuid: cb4dca8b-ea80-40db-b345-00f047fe12ad
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -16,19 +16,19 @@ bundle: d_p_block
 mode: default
 content:
   field_block:
-    weight: 0
+    type: d_block_field
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: d_block_field
+    weight: 0
     region: content
   field_d_settings:
-    weight: 1
+    type: string
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 1
     region: content
 hidden:
   search_api_excerpt: true

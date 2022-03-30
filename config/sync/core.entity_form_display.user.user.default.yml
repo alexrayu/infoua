@@ -1,5 +1,5 @@
 uuid: 024c75ee-1bf2-4280-9a4b-de36c88638fc
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -36,11 +36,11 @@ content:
     region: content
   user_picture:
     type: image_image
+    weight: -1
+    region: content
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
-    weight: -1
-    region: content
 hidden:
   langcode: true

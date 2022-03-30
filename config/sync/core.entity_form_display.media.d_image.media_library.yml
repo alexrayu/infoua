@@ -1,5 +1,5 @@
 uuid: eda94b83-77e1-4cd0-ab6c-b8731a51d6bd
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -17,13 +17,13 @@ bundle: d_image
 mode: media_library
 content:
   field_media_image:
+    type: image_image
     weight: -50
+    region: content
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
-    type: image_image
-    region: content
 hidden:
   created: true
   langcode: true

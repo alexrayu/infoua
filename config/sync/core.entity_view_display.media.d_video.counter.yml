@@ -1,5 +1,5 @@
 uuid: b8fe5776-f56c-48c4-8edb-0de9ee3edfd2
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -17,7 +17,6 @@ mode: counter
 content:
   field_media_oembed_video:
     type: d_video_embed
-    weight: 0
     label: hidden
     settings:
       player_settings:
@@ -29,6 +28,7 @@ content:
         cover: '1'
         image_style: ''
     third_party_settings: {  }
+    weight: 0
     region: content
 hidden:
   created: true

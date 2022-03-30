@@ -1,5 +1,5 @@
 uuid: bfee7dfd-3079-4b98-a253-2df236506a8c
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -17,6 +17,7 @@ content:
   field_paragraphs:
     type: entity_reference_paragraphs
     weight: 26
+    region: content
     settings:
       title: Paragraph
       title_plural: Paragraphs
@@ -25,7 +26,6 @@ content:
       form_display_mode: default
       default_paragraph_type: ''
     third_party_settings: {  }
-    region: content
   info:
     type: string_textfield
     weight: -5

@@ -1,5 +1,6 @@
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
+langcode: ru
 module:
   admin_toolbar: 0
   admin_toolbar_links_access_filter: 0
@@ -123,4 +124,5 @@ module:
 theme:
   droopler_theme: 0
   seven: 0
+  infoua: 0
 profile: droopler

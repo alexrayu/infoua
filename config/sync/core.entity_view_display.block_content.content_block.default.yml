@@ -1,5 +1,5 @@
 uuid: a0267fbc-7742-4357-ad00-217355031ca9
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -16,19 +16,19 @@ bundle: content_block
 mode: default
 content:
   field_d_long_text:
-    weight: 1
+    type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: text_default
+    weight: 1
     region: content
   field_d_main_title:
-    weight: 0
+    type: string
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 0
     region: content
 hidden:
   langcode: true

@@ -1,5 +1,5 @@
 uuid: 54f69eff-84b0-4eaf-8fe1-ad0b5207ebe6
-langcode: en
+langcode: ru
 status: true
 dependencies:
   module:
@@ -13,6 +13,9 @@ field_name: field_d_image
 entity_type: paragraph
 type: image
 settings:
+  target_type: file
+  display_field: false
+  display_default: false
   uri_scheme: public
   default_image:
     uuid: ''
@@ -20,9 +23,6 @@ settings:
     title: ''
     width: null
     height: null
-  target_type: file
-  display_field: false
-  display_default: false
 module: image
 locked: false
 cardinality: -1

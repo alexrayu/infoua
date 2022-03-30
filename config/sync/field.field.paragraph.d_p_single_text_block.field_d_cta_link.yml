@@ -1,5 +1,5 @@
 uuid: 5d0f4ebd-58ff-44ad-993c-96c4fe2b8c5b
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -20,6 +20,6 @@ translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
-  link_type: 17
   title: 1
+  link_type: 17
 field_type: link

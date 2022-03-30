@@ -1,0 +1,20 @@
+uuid: e9fb0caa-cd49-42e4-bcfc-ccad7d20ea16
+langcode: en
+status: true
+dependencies:
+  theme:
+    - infoua
+_core:
+  default_config_hash: SgkWQaEfrYQcRQIrp6D5ZlZG9I05sv8xypakOwoHmuU
+id: infoua_pagetitle
+theme: infoua
+region: content
+weight: -2
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,9 +1,10 @@
 _core:
   default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM
+langcode: ru
 definitions:
   d__blog__d__blog:
-    weight: -48
-    enabled: false
     menu_name: main
     parent: ''
+    weight: -48
     expanded: false
+    enabled: false

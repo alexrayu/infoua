@@ -1,0 +1,27 @@
+uuid: b40c3895-b2bd-4ab6-a958-3dc4182d3fa2
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - infoua
+_core:
+  default_config_hash: EtUSpmYM8J3XwpRW_rshvM-aEPwqBK6hHW6XBf8GCVk
+id: infoua_mainnavigation
+theme: infoua
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

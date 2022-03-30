@@ -1,5 +1,5 @@
 uuid: 183aa806-63a5-4036-aa81-b422c1dd6676
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -22,20 +22,20 @@ bundle: content_page
 mode: default
 content:
   field_meta_tags:
-    weight: 1
+    type: metatag_empty_formatter
     label: above
     settings: {  }
     third_party_settings: {  }
-    type: metatag_empty_formatter
+    weight: 1
     region: content
   field_page_section:
-    weight: 0
+    type: entity_reference_revisions_entity_view
     label: hidden
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    type: entity_reference_revisions_entity_view
+    weight: 0
     region: content
 hidden:
   field_header_cta: true

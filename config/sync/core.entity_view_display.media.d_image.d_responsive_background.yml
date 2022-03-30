@@ -1,5 +1,5 @@
 uuid: c7f2ec27-02b2-4332-9caf-714aa09a3ed2
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -18,7 +18,7 @@ bundle: d_image
 mode: d_responsive_background
 content:
   field_media_image:
-    weight: 0
+    type: responsive_image
     label: hidden
     settings:
       responsive_image_style: responsive_background
@@ -26,7 +26,7 @@ content:
     third_party_settings:
       lazy:
         lazy_image: '1'
-    type: responsive_image
+    weight: 0
     region: content
 hidden:
   created: true

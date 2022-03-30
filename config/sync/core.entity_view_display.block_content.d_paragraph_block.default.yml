@@ -1,5 +1,5 @@
 uuid: d9b4135e-20b4-4922-81f2-bc526760599c
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -16,12 +16,12 @@ mode: default
 content:
   field_paragraphs:
     type: entity_reference_revisions_entity_view
-    weight: 0
     label: hidden
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
+    weight: 0
     region: content
 hidden:
   langcode: true

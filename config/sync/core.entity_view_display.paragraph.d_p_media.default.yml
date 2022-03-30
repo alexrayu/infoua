@@ -1,5 +1,5 @@
 uuid: 094b6c04-7faf-46e0-b023-5535a0b21796
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -14,12 +14,12 @@ mode: default
 content:
   field_d_p_media_item:
     type: entity_reference_entity_view
-    weight: 0
     label: hidden
     settings:
       view_mode: d_responsive_background
       link: false
     third_party_settings: {  }
+    weight: 0
     region: content
 hidden:
   search_api_excerpt: true

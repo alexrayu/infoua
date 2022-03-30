@@ -1,5 +1,5 @@
 uuid: afa70b5f-f05f-45ea-9491-561dae50adfe
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -16,21 +16,21 @@ bundle: content_block
 mode: default
 content:
   field_d_long_text:
+    type: text_textarea
     weight: 3
+    region: content
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
-    type: text_textarea
-    region: content
   field_d_main_title:
+    type: string_textfield
     weight: 1
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
   info:
     type: string_textfield
     weight: 0

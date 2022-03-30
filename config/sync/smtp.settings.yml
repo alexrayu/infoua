@@ -1,5 +1,6 @@
 _core:
   default_config_hash: 2v5R3I9tNatGzKQjuZWh1y_955xK09313Vn-IIuedyI
+langcode: ru
 smtp_on: false
 smtp_host: ''
 smtp_hostbackup: ''

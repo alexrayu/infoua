@@ -1,5 +1,5 @@
 uuid: 131eddbe-62a5-41c0-a9c1-628137ea12d5
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -20,14 +20,14 @@ content:
     type: image
     label: hidden
     settings:
-      image_style: medium
       image_link: ''
+      image_style: medium
       svg_attributes:
-        width: ''
-        height: ''
+        width: null
+        height: null
       svg_render_as_image: true
-    weight: 0
     third_party_settings: {  }
+    weight: 0
     region: content
 hidden:
   created: true

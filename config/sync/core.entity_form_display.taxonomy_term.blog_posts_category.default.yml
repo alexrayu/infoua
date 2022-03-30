@@ -1,5 +1,5 @@
 uuid: 3ac4299d-6037-4528-9647-b536211d9af2
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -46,18 +46,18 @@ content:
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 100
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   translation:
     weight: 10
     region: content
   tvi:
     weight: 100
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
   field_d_blog_category: true

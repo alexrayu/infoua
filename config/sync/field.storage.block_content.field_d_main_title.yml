@@ -1,5 +1,5 @@
 uuid: 9d0d0503-322e-4a2a-aea0-c8f2a687a8d1
-langcode: en
+langcode: ru
 status: true
 dependencies:
   module:
@@ -12,8 +12,8 @@ entity_type: block_content
 type: string
 settings:
   max_length: 255
-  is_ascii: false
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

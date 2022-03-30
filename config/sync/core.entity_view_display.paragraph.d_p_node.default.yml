@@ -1,5 +1,5 @@
 uuid: 04776a24-d88b-4558-b269-04bcf8bf3ef2
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -17,22 +17,22 @@ bundle: d_p_node
 mode: default
 content:
   field_d_node_reference:
-    weight: 0
+    type: entity_reference_display_default
     label: hidden
     settings:
       display_field: ''
       view_mode: default
       link: false
     third_party_settings: {  }
-    type: entity_reference_display_default
+    weight: 0
     region: content
   field_d_settings:
-    weight: 1
+    type: string
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 1
     region: content
 hidden:
   field_d_display_mode: true

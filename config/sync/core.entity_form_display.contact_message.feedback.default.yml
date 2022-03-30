@@ -1,5 +1,5 @@
 uuid: b811b49b-3ebe-4665-800b-f47e7fbcdaf4
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -31,10 +31,10 @@ content:
   message:
     type: string_textarea
     weight: 0
+    region: content
     settings:
       rows: 5
       placeholder: ''
-    region: content
     third_party_settings: {  }
   name:
     weight: -50

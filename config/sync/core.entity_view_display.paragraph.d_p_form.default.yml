@@ -1,5 +1,5 @@
 uuid: e3874881-b726-44ea-9005-39529aabaa7d
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -19,13 +19,14 @@ third_party_settings:
     group_d_form_background:
       children:
         - field_d_media_background
+      label: 'Form background'
       parent_name: ''
+      region: content
       weight: 0
       format_type: html_element
-      region: content
       format_settings:
-        id: ''
         classes: ''
+        id: ''
         element: '<none>'
         show_label: false
         label_element: h3
@@ -33,19 +34,19 @@ third_party_settings:
         attributes: ''
         effect: none
         speed: fast
-      label: 'Form background'
     group_d_form_content:
       children:
         - field_d_media_icon
         - field_d_main_title
         - field_d_long_text
+      label: 'Form content'
       parent_name: ''
+      region: content
       weight: 1
       format_type: html_element
-      region: content
       format_settings:
-        id: ''
         classes: ''
+        id: ''
         element: '<none>'
         show_label: false
         label_element: h3
@@ -53,17 +54,17 @@ third_party_settings:
         attributes: ''
         effect: none
         speed: fast
-      label: 'Form content'
     group_d_form_fields:
       children:
         - field_d_forms
+      label: 'Form fields'
       parent_name: ''
+      region: content
       weight: 2
       format_type: html_element
-      region: content
       format_settings:
-        id: ''
         classes: ''
+        id: ''
         element: '<none>'
         show_label: false
         label_element: h3
@@ -71,7 +72,6 @@ third_party_settings:
         attributes: ''
         effect: none
         speed: fast
-      label: 'Form fields'
 _core:
   default_config_hash: vw6hTdLjdRMDCR86kAKKhvTd9DXzgPBDJNRYOEvr6MM
 id: paragraph.d_p_form.default
@@ -80,44 +80,44 @@ bundle: d_p_form
 mode: default
 content:
   field_d_forms:
-    weight: 5
+    type: contact_field_formatter
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: contact_field_formatter
+    weight: 5
     region: content
   field_d_long_text:
-    weight: 4
+    type: text_default
     label: visually_hidden
     settings: {  }
     third_party_settings: {  }
-    type: text_default
+    weight: 4
     region: content
   field_d_main_title:
-    weight: 3
+    type: string
     label: visually_hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 3
     region: content
   field_d_media_background:
     type: entity_reference_entity_view
-    weight: 7
-    region: content
     label: hidden
     settings:
       view_mode: d_banner
       link: false
     third_party_settings: {  }
+    weight: 7
+    region: content
   field_d_media_icon:
     type: entity_reference_entity_view
-    weight: 2
     label: hidden
     settings:
       view_mode: d_icon
       link: false
     third_party_settings: {  }
+    weight: 2
     region: content
 hidden:
   field_d_settings: true

@@ -1,5 +1,5 @@
 uuid: de62d768-7dfb-43db-9fe8-18d66b90145e
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -15,24 +15,24 @@ id: blog_images_style
 label: 'Blog image style'
 image_style_mappings:
   -
-    breakpoint_id: droopler_theme.extra
-    multiplier: 1x
     image_mapping_type: image_style
     image_mapping: responsive_image_2000
-  -
-    breakpoint_id: droopler_theme.large
+    breakpoint_id: droopler_theme.extra
     multiplier: 1x
+  -
     image_mapping_type: image_style
     image_mapping: responsive_image_1200
-  -
-    breakpoint_id: droopler_theme.medium
+    breakpoint_id: droopler_theme.large
     multiplier: 1x
+  -
     image_mapping_type: image_style
     image_mapping: responsive_image_992
-  -
-    breakpoint_id: droopler_theme.small
+    breakpoint_id: droopler_theme.medium
     multiplier: 1x
+  -
     image_mapping_type: image_style
     image_mapping: responsive_image_768
+    breakpoint_id: droopler_theme.small
+    multiplier: 1x
 breakpoint_group: droopler_theme
 fallback_image_style: responsive_image_2000

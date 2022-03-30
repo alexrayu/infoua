@@ -1,5 +1,5 @@
 uuid: 3416283f-d7f1-4d52-b034-d7c73970dcde
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -19,7 +19,7 @@ bundle: d_image
 mode: gallery_item
 content:
   field_media_image:
-    weight: 0
+    type: colorbox
     label: hidden
     settings:
       colorbox_node_style: gallery_thumbnail
@@ -32,7 +32,7 @@ content:
     third_party_settings:
       lazy:
         lazy_image: '1'
-    type: colorbox
+    weight: 0
     region: content
 hidden:
   created: true

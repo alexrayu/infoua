@@ -1,5 +1,5 @@
 uuid: 95ab35d0-be36-4c4b-8578-a8ad119dc2c6
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -22,7 +22,7 @@ bundle: d_p_side_by_side
 mode: default
 content:
   field_d_cta_link:
-    weight: 4
+    type: link
     label: hidden
     settings:
       trim_length: 80
@@ -31,40 +31,40 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    type: link
+    weight: 4
     region: content
   field_d_long_text:
     type: text_default
-    weight: 2
-    region: content
     label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 2
+    region: content
   field_d_main_title:
     type: string
-    weight: 1
-    region: content
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    weight: 1
+    region: content
   field_d_media_icon:
-    weight: 0
+    type: entity_reference_entity_view
     label: hidden
     settings:
       view_mode: d_icon
       link: false
     third_party_settings: {  }
-    type: entity_reference_entity_view
+    weight: 0
     region: content
   field_d_p_sbs_items:
     type: entity_reference_revisions_entity_view
-    weight: 3
     label: hidden
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
+    weight: 3
     region: content
 hidden:
   field_d_settings: true

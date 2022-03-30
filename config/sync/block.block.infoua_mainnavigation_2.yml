@@ -1,0 +1,30 @@
+uuid: fa6b3121-4c54-48a1-9224-2b90c7535c8f
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+    - we_megamenu
+  theme:
+    - infoua
+_core:
+  default_config_hash: x63iAYw83VaAiwkgBhoeBcpGENMfMU5Ma8pziCtiruk
+id: infoua_mainnavigation_2
+theme: infoua
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'we_megamenu_block:main'
+settings:
+  id: 'we_megamenu_block:main'
+  label: 'MegaMenu Main navigation'
+  label_display: '0'
+  provider: we_megamenu
+visibility:
+  language:
+    id: language
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
+    langcodes:
+      en: en

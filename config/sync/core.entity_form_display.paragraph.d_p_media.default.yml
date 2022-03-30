@@ -1,5 +1,5 @@
 uuid: 67f32459-32f4-4bd9-b7ff-77f21cf9312c
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -17,10 +17,10 @@ content:
   field_d_p_media_item:
     type: media_library_widget
     weight: 0
+    region: content
     settings:
       media_types: {  }
     third_party_settings: {  }
-    region: content
 hidden:
   created: true
   status: true

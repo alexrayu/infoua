@@ -1,5 +1,5 @@
 uuid: 4d236d04-53df-4ccd-9bbb-e55bad3668ff
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -18,45 +18,45 @@ third_party_settings:
       children:
         - group_basic
         - group_settings
+      label: Tabs
+      region: content
       parent_name: ''
       weight: 0
       format_type: tabs
-      region: content
       format_settings:
-        id: ''
         classes: ''
+        id: ''
         direction: horizontal
-      label: Tabs
     group_basic:
       children:
         - field_d_number
         - field_d_main_title
         - field_d_media_icon
+      label: Basic
+      region: content
       parent_name: group_tabs
       weight: 7
       format_type: tab
-      region: content
       format_settings:
-        id: ''
         classes: ''
-        description: ''
+        id: ''
         formatter: open
+        description: ''
         required_fields: true
-      label: Basic
     group_settings:
       children:
         - field_d_settings
+      label: Settings
+      region: content
       parent_name: group_tabs
       weight: 8
       format_type: tab
-      region: content
       format_settings:
-        id: ''
         classes: ''
-        description: ''
+        id: ''
         formatter: closed
+        description: ''
         required_fields: true
-      label: Settings
 _core:
   default_config_hash: ECstArp6Hr1H0d5cQW8UmzfWeLtU41MW7axxRKVuTcE
 id: paragraph.d_p_single_counter.default
@@ -65,29 +65,31 @@ bundle: d_p_single_counter
 mode: default
 content:
   field_d_main_title:
+    type: string_textfield
     weight: 2
+    region: content
     settings:
       size: 60
       placeholder: 'ie. Clients this year'
     third_party_settings: {  }
-    type: string_textfield
-    region: content
   field_d_media_icon:
+    type: media_library_widget
     weight: 3
+    region: content
     settings:
       media_types: {  }
     third_party_settings: {  }
-    type: media_library_widget
-    region: content
   field_d_number:
+    type: number
     weight: 1
+    region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
-    type: number
-    region: content
   field_d_settings:
+    type: field_d_p_set_settings
     weight: 3
+    region: content
     settings:
       filter_mode: '1'
       allowed_settings:
@@ -141,8 +143,6 @@ content:
         column_count:
           status: 0
     third_party_settings: {  }
-    type: field_d_p_set_settings
-    region: content
 hidden:
   created: true
   status: true

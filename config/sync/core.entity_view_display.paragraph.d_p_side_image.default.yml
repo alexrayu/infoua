@@ -1,5 +1,5 @@
 uuid: 54156622-a760-4d64-af19-90c663523176
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -19,13 +19,14 @@ third_party_settings:
     group_d_side_image_background:
       children:
         - field_d_media_background
+      label: 'Side image background'
       parent_name: ''
+      region: content
       weight: 0
       format_type: html_element
-      region: content
       format_settings:
-        id: ''
         classes: ''
+        id: ''
         element: '<none>'
         show_label: false
         label_element: h3
@@ -33,20 +34,20 @@ third_party_settings:
         attributes: ''
         effect: none
         speed: fast
-      label: 'Side image background'
     group_d_side_image_content:
       children:
         - field_d_media_icon
         - field_d_main_title
         - field_d_long_text
         - field_d_cta_link
+      label: 'Side image content'
       parent_name: ''
+      region: content
       weight: 1
       format_type: html_element
-      region: content
       format_settings:
-        id: ''
         classes: ''
+        id: ''
         element: '<none>'
         show_label: false
         label_element: h3
@@ -54,7 +55,6 @@ third_party_settings:
         attributes: ''
         effect: none
         speed: fast
-      label: 'Side image content'
 _core:
   default_config_hash: xWq9gwlnZ7pWL0X-qu9sow40EDibb-YYsOJ-H242otg
 id: paragraph.d_p_side_image.default
@@ -63,7 +63,7 @@ bundle: d_p_side_image
 mode: default
 content:
   field_d_cta_link:
-    weight: 5
+    type: link
     label: hidden
     settings:
       trim_length: 80
@@ -72,48 +72,48 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    type: link
+    weight: 5
     region: content
   field_d_long_text:
-    weight: 4
+    type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: text_default
+    weight: 4
     region: content
   field_d_main_title:
-    weight: 3
+    type: string
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 3
     region: content
   field_d_media_background:
     type: entity_reference_entity_view
-    weight: 7
-    region: content
     label: hidden
     settings:
       view_mode: d_banner
       link: false
     third_party_settings: {  }
+    weight: 7
+    region: content
   field_d_media_icon:
     type: entity_reference_entity_view
-    weight: 2
     label: hidden
     settings:
       view_mode: d_icon
       link: false
     third_party_settings: {  }
+    weight: 2
     region: content
   field_d_subtitle:
-    weight: 1
+    type: string
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 1
     region: content
 hidden:
   field_d_settings: true

@@ -1,5 +1,5 @@
 uuid: 3fceb0c6-9063-4e11-9709-151fdc6d373b
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -23,7 +23,7 @@ bundle: d_p_carousel
 mode: default
 content:
   field_d_cta_link:
-    weight: 6
+    type: link
     label: hidden
     settings:
       trim_length: 80
@@ -32,47 +32,47 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    type: link
+    weight: 6
     region: content
   field_d_long_text:
-    weight: 3
+    type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: text_default
+    weight: 3
     region: content
   field_d_main_title:
-    weight: 2
+    type: string
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 2
     region: content
   field_d_media_icon:
-    weight: 1
+    type: entity_reference_entity_view
     label: hidden
     settings:
       view_mode: d_icon
       link: false
     third_party_settings: {  }
-    type: entity_reference_entity_view
+    weight: 1
     region: content
   field_d_p_cs_item_reference:
     type: entity_reference_revisions_entity_view
-    weight: 4
     label: hidden
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
+    weight: 4
     region: content
   field_d_settings:
-    weight: 5
+    type: field_configuration_formatter
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: field_configuration_formatter
+    weight: 5
     region: content
 hidden:
   search_api_excerpt: true

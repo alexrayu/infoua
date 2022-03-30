@@ -1,5 +1,5 @@
 uuid: b66c5c7f-c8c1-45a3-9ec5-095efb40e633
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -24,15 +24,15 @@ mode: d_small_box
 content:
   field_blog_media_main_image:
     type: media_thumbnail
-    weight: 1
-    region: content
     label: hidden
     settings:
-      image_style: small_box_image
       image_link: content
+      image_style: small_box_image
     third_party_settings:
       lazy:
         lazy_image: '1'
+    weight: 1
+    region: content
 hidden:
   field_blog_category: true
   field_blog_sections: true

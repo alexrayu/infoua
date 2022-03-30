@@ -1,5 +1,5 @@
 uuid: a8631e66-d8a5-4b97-af81-7663e51704c0
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -18,7 +18,7 @@ bundle: d_image
 mode: d_banner
 content:
   field_media_image:
-    weight: 0
+    type: responsive_image
     label: hidden
     settings:
       responsive_image_style: banner
@@ -26,7 +26,7 @@ content:
     third_party_settings:
       lazy:
         lazy_image: '1'
-    type: responsive_image
+    weight: 0
     region: content
 hidden:
   created: true

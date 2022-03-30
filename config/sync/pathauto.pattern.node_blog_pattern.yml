@@ -1,5 +1,5 @@
 uuid: 6613d3d2-0175-44d3-b614-b26cb0e55ba6
-langcode: en
+langcode: ru
 status: true
 dependencies:
   module:
@@ -13,12 +13,12 @@ pattern: 'blog/[node:title]'
 selection_criteria:
   607f77ea-c917-4177-860c-31ded5df3c9a:
     id: node_type
-    bundles:
-      blog_post: blog_post
     negate: false
+    uuid: 607f77ea-c917-4177-860c-31ded5df3c9a
     context_mapping:
       node: node
-    uuid: 607f77ea-c917-4177-860c-31ded5df3c9a
+    bundles:
+      blog_post: blog_post
 selection_logic: and
 weight: -5
 relationships: {  }

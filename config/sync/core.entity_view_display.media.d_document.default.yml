@@ -1,5 +1,5 @@
 uuid: 4346d51b-9225-4136-a9af-ade1446befed
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -15,11 +15,11 @@ bundle: d_document
 mode: default
 content:
   field_media_file:
+    type: d_document_embed
     label: hidden
-    weight: 0
     settings: {  }
     third_party_settings: {  }
-    type: d_document_embed
+    weight: 0
     region: content
 hidden:
   created: true

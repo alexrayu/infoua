@@ -1,5 +1,5 @@
 uuid: 6ac286f7-3cc4-4e17-b337-4103aa966699
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -24,6 +24,6 @@ default_value:
         class: 'btn btn-secondary'
 default_value_callback: ''
 settings:
-  link_type: 17
   title: 1
+  link_type: 17
 field_type: link

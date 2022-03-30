@@ -1,5 +1,5 @@
 uuid: 69fa39a4-a5f9-45da-b3c5-eebc84122731
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -19,7 +19,7 @@ bundle: d_image
 mode: d_tiles_gallery_fullscreen
 content:
   field_media_image:
-    weight: 0
+    type: colorbox
     label: hidden
     settings:
       colorbox_node_style: tiles_thumbnail
@@ -32,7 +32,7 @@ content:
     third_party_settings:
       lazy:
         lazy_image: '1'
-    type: colorbox
+    weight: 0
     region: content
 hidden:
   created: true

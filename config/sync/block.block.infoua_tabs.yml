@@ -1,0 +1,22 @@
+uuid: 742d4c36-83a9-4173-98cb-5e4ad9c91111
+langcode: en
+status: true
+dependencies:
+  theme:
+    - infoua
+_core:
+  default_config_hash: GvzD97rZ73rxmKcG4XH6khzox_rRUpf8L0WBJAIrtk8
+id: infoua_tabs
+theme: infoua
+region: admin_tabs
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

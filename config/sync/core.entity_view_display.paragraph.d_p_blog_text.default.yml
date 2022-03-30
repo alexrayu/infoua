@@ -1,5 +1,5 @@
 uuid: 11ec368f-f42c-4946-bfb9-732d724d0f65
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -15,10 +15,10 @@ bundle: d_p_blog_text
 mode: default
 content:
   field_d_long_text:
-    weight: 1
+    type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: text_default
+    weight: 1
     region: content
 hidden: {  }

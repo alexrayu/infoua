@@ -1,5 +1,5 @@
 uuid: ba98f491-ab60-4059-8f89-23c2aafaeb7f
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -21,43 +21,43 @@ bundle: blog_post
 mode: default
 content:
   field_blog_category:
-    weight: 1
+    type: entity_reference_label
     label: hidden
     settings:
       link: true
     third_party_settings: {  }
-    type: entity_reference_label
+    weight: 1
     region: content
   field_blog_media_main_image:
     type: entity_reference_entity_view
-    weight: 3
     label: hidden
     settings:
       view_mode: d_blog_image
       link: false
     third_party_settings: {  }
+    weight: 3
     region: content
   field_blog_sections:
     type: entity_reference_revisions_entity_view
-    weight: 4
     label: hidden
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
+    weight: 4
     region: content
   field_meta_tags:
-    weight: 5
+    type: metatag_empty_formatter
     label: above
     settings: {  }
     third_party_settings: {  }
-    type: metatag_empty_formatter
+    weight: 5
     region: content
   links:
-    weight: 0
-    region: content
     settings: {  }
     third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   field_blog_teaser: true
   langcode: true

@@ -18,7 +18,7 @@ droopler_theme_navbar_top_background: faded
 droopler_theme_navbar_position: ''
 droopler_theme_navbar_color: ''
 droopler_theme_navbar_background: inverse
-langcode: en
+langcode: ru
 features:
   node_user_picture: true
   comment_user_picture: true

@@ -1,5 +1,5 @@
 uuid: 086c0558-e3be-441f-8ebe-e8efcb663c55
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -17,19 +17,19 @@ bundle: d_image
 mode: full
 content:
   field_media_image:
-    weight: 0
+    type: image
     label: above
     settings:
-      svg_attributes:
-        width: ''
-        height: ''
-      svg_render_as_image: true
-      image_style: ''
       image_link: ''
+      image_style: ''
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
     third_party_settings:
       lazy:
         lazy_image: '1'
-    type: image
+    weight: 0
     region: content
 hidden:
   created: true

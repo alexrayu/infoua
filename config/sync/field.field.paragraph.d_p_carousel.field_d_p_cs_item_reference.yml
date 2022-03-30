@@ -1,5 +1,5 @@
 uuid: c496b530-2fc3-4e79-8029-f067aba7a82f
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -23,39 +23,12 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 0
     target_bundles:
       d_p_carousel_item: d_p_carousel_item
+    negate: 0
     target_bundles_drag_drop:
-      d_p_carousel:
-        weight: 11
-        enabled: false
       d_p_banner:
         weight: 12
-        enabled: false
-      d_p_carousel_item:
-        enabled: true
-        weight: 13
-      d_p_form:
-        weight: 14
-        enabled: false
-      d_p_group_of_text_blocks:
-        weight: 15
-        enabled: false
-      d_p_side_image:
-        weight: 16
-        enabled: false
-      d_p_single_text_block:
-        weight: 17
-        enabled: false
-      d_p_subscribe_file:
-        weight: 18
-        enabled: false
-      d_p_text_paged:
-        weight: 19
-        enabled: false
-      d_p_text_with_bckg:
-        weight: 20
         enabled: false
       d_p_blog_image:
         weight: 23
@@ -63,11 +36,23 @@ settings:
       d_p_blog_text:
         weight: 24
         enabled: false
+      d_p_carousel:
+        weight: 11
+        enabled: false
+      d_p_carousel_item:
+        weight: 13
+        enabled: true
+      d_p_form:
+        weight: 14
+        enabled: false
       d_p_gallery:
         weight: 28
         enabled: false
       d_p_group_of_counters:
         weight: 29
+        enabled: false
+      d_p_group_of_text_blocks:
+        weight: 15
         enabled: false
       d_p_node:
         weight: 31
@@ -81,11 +66,26 @@ settings:
       d_p_side_embed:
         weight: 34
         enabled: false
+      d_p_side_image:
+        weight: 16
+        enabled: false
       d_p_side_tiles:
         weight: 36
         enabled: false
       d_p_single_counter:
         weight: 37
+        enabled: false
+      d_p_single_text_block:
+        weight: 17
+        enabled: false
+      d_p_subscribe_file:
+        weight: 18
+        enabled: false
+      d_p_text_paged:
+        weight: 19
+        enabled: false
+      d_p_text_with_bckg:
+        weight: 20
         enabled: false
       d_p_tiles:
         weight: 42

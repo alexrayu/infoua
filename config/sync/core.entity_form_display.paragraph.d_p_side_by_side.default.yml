@@ -1,5 +1,5 @@
 uuid: f8ce8ebe-0046-4a14-800b-f94a13b3f51c
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -24,60 +24,60 @@ third_party_settings:
         - group_basic
         - group_items
         - group_settings
+      label: Tabs
+      region: content
       parent_name: ''
       weight: 3
       format_type: tabs
       format_settings:
-        id: ''
         classes: ''
+        id: ''
         direction: horizontal
-      label: Tabs
-      region: content
     group_settings:
       children:
         - field_d_settings
+      label: Settings
+      region: content
       parent_name: group_tabs
       weight: 22
       format_type: tab
       format_settings:
-        description: ''
-        formatter: closed
-        required_fields: true
-        id: ''
         classes: ''
-      label: Settings
-      region: content
+        id: ''
+        formatter: closed
+        description: ''
+        required_fields: true
     group_items:
       children:
         - field_d_p_sbs_items
+      label: Items
+      region: content
       parent_name: group_tabs
       weight: 21
       format_type: tab
       format_settings:
-        id: ''
         classes: ''
-        description: ''
+        id: ''
         formatter: closed
+        description: ''
         required_fields: true
-      label: Items
-      region: content
     group_basic:
       children:
         - field_d_main_title
         - field_d_media_icon
         - field_d_long_text
         - field_d_cta_link
+      label: Basic
+      region: content
       parent_name: group_tabs
       weight: 20
       format_type: tab
-      region: content
       format_settings:
-        id: ''
         classes: ''
-        description: ''
+        id: ''
         formatter: open
+        description: ''
         required_fields: true
-      label: Basic
 _core:
   default_config_hash: oE1EWqtwddR1c1e-EXPXTvHdzKLqtLT1ezl6ejNcznw
 id: paragraph.d_p_side_by_side.default
@@ -86,7 +86,9 @@ bundle: d_p_side_by_side
 mode: default
 content:
   field_d_cta_link:
+    type: link_attributes
     weight: 3
+    region: content
     settings:
       placeholder_url: ''
       placeholder_title: ''
@@ -100,8 +102,6 @@ content:
         aria-label: false
         title: false
     third_party_settings: {  }
-    type: link_attributes
-    region: content
   field_d_long_text:
     type: text_textarea
     weight: 2
@@ -119,15 +119,16 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_d_media_icon:
+    type: media_library_widget
     weight: 1
+    region: content
     settings:
       media_types: {  }
     third_party_settings: {  }
-    type: media_library_widget
-    region: content
   field_d_p_sbs_items:
     type: entity_reference_paragraphs
     weight: 12
+    region: content
     settings:
       title: Paragraph
       title_plural: Paragraphs
@@ -136,9 +137,10 @@ content:
       form_display_mode: default
       default_paragraph_type: _none
     third_party_settings: {  }
-    region: content
   field_d_settings:
+    type: field_d_p_set_settings
     weight: 16
+    region: content
     settings:
       filter_mode: '1'
       allowed_settings:
@@ -192,8 +194,6 @@ content:
         column_count:
           status: 0
     third_party_settings: {  }
-    type: field_d_p_set_settings
-    region: content
 hidden:
   created: true
   status: true

@@ -1,5 +1,5 @@
 uuid: e4218fe2-714c-4e86-97e0-fe349456debe
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -16,44 +16,44 @@ third_party_settings:
       children:
         - group_basic
         - group_settings
+      label: Tabs
+      region: content
       parent_name: ''
       weight: 0
       format_type: tabs
-      region: content
       format_settings:
-        id: ''
         classes: ''
+        id: ''
         direction: horizontal
-      label: Tabs
     group_basic:
       children:
         - field_d_display_mode
         - field_d_node_reference
+      label: Basic
+      region: content
       parent_name: group_tabs
       weight: 20
       format_type: tab
-      region: content
       format_settings:
-        id: ''
         classes: ''
-        description: ''
+        id: ''
         formatter: open
+        description: ''
         required_fields: true
-      label: Basic
     group_settings:
       children:
         - field_d_settings
+      label: Settings
+      region: content
       parent_name: group_tabs
       weight: 21
       format_type: tab
-      region: content
       format_settings:
-        id: ''
         classes: ''
-        description: ''
+        id: ''
         formatter: closed
+        description: ''
         required_fields: true
-      label: Settings
 _core:
   default_config_hash: Uplma3SLcVNyzdf9Op1bOYDuDiWq_QZDbLuRGxDLuRQ
 id: paragraph.d_p_node.default
@@ -68,17 +68,19 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_d_node_reference:
+    type: entity_reference_autocomplete
     weight: 2
+    region: content
     settings:
       match_operator: CONTAINS
+      match_limit: 10
       size: 60
       placeholder: ''
-      match_limit: 10
     third_party_settings: {  }
-    type: entity_reference_autocomplete
-    region: content
   field_d_settings:
+    type: field_d_p_set_settings
     weight: 3
+    region: content
     settings:
       filter_mode: '1'
       allowed_settings:
@@ -132,8 +134,6 @@ content:
         side_tiles_layout:
           status: 0
     third_party_settings: {  }
-    type: field_d_p_set_settings
-    region: content
 hidden:
   created: true
   status: true

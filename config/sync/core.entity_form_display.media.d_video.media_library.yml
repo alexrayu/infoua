@@ -1,5 +1,5 @@
 uuid: 8fed5fe9-03b3-4574-98c8-47e6d39f0f35
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -15,12 +15,12 @@ mode: media_library
 content:
   name:
     type: string_textfield
+    weight: 0
+    region: content
     settings:
       size: 60
       placeholder: ''
-    weight: 0
     third_party_settings: {  }
-    region: content
 hidden:
   created: true
   field_media_oembed_video: true

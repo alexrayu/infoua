@@ -1,5 +1,5 @@
 uuid: 75b87b0a-2bc4-496c-9582-483dca114f8c
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -25,23 +25,23 @@ mode: teaser_small
 content:
   field_blog_media_main_image:
     type: media_thumbnail
-    weight: 1
-    region: content
     label: hidden
     settings:
-      image_style: large_gallery_thumbnail
       image_link: content
+      image_style: large_gallery_thumbnail
     third_party_settings:
       lazy:
         lazy_image: '1'
+    weight: 1
+    region: content
   field_blog_teaser:
     type: text_trimmed
-    weight: 2
-    region: content
     label: hidden
     settings:
       trim_length: 160
     third_party_settings: {  }
+    weight: 2
+    region: content
 hidden:
   field_blog_category: true
   field_blog_sections: true

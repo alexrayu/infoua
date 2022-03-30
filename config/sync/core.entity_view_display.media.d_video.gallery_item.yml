@@ -1,5 +1,5 @@
 uuid: 634c0b30-d942-434a-b1ec-8f24de34a49a
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -17,7 +17,6 @@ mode: gallery_item
 content:
   field_media_oembed_video:
     type: d_video_embed
-    weight: 0
     label: hidden
     settings:
       player_settings:
@@ -29,6 +28,7 @@ content:
         cover: '1'
         image_style: gallery_thumbnail
     third_party_settings: {  }
+    weight: 0
     region: content
 hidden:
   created: true

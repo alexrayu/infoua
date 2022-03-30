@@ -1,3 +1,4 @@
+langcode: ru
 _core:
   default_config_hash: QIWiKAUCYVNRcVOOLbvFev42qgAHsaz7WmPe1oKjrtk
 css_adjust_sort_browsers: true
@@ -8,13 +9,13 @@ css_defer_external: false
 css_defer_js_code: 4
 css_preprocess: true
 css_translate: null
-js_adjust_sort_browsers: false
 js_adjust_sort_external: false
+js_adjust_sort_browsers: false
 js_async: false
 js_async_in_header: false
 js_defer: 0
-js_preprocess: true
-prefetch: null
 js_footer: null
+js_preprocess: true
 js_remove_console_log: true
+prefetch: null
 unified_multisite_dir: null
