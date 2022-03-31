@@ -4,6 +4,7 @@ child-styling:
     theme:
       css/print.css: { media: print }
       css/style.css: {}
+      css/adjustments.css: {}
 
 child-scripts:
   version: VERSION

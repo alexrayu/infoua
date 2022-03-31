@@ -25508,3 +25508,6 @@ footer .social-media-wrapper .icons-wrapper .icon::before {
   text-transform: inherit;
 }
 /*# sourceMappingURL=maps/style.css.map */
+html. body {
+  color: blue !important;
+}

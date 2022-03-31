@@ -1,4 +1,4 @@
-uuid: c96a61bb-165d-444d-9295-cd28afae6b44
+uuid: 665e1a44-96a1-44a0-9360-f87dbaa72e08
 langcode: en
 status: true
 dependencies:
@@ -16,7 +16,7 @@ provider: null
 plugin: 'language_block:language_interface'
 settings:
   id: 'language_block:language_interface'
-  label: 'Language switcher'
+  label: 'Переключатель языка'
   label_display: '0'
   provider: language
 visibility: {  }
